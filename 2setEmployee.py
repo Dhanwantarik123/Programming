@@ -1,0 +1,9 @@
+dev={"gk","sk","pk","vaishu","arpita","dk"}
+ana={"gk","chiku","dimpu","prashant","dk","premila"}
+print(dev.union(ana))
+print(dev)
+print(dev.intersection(ana))
+print(ana.intersection(dev))
+print(dev.difference(ana))
+print(ana.difference(dev))
+print(dev.symmetric_difference(ana))
